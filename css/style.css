@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:ital,wght@1,300&display=swap');
+
+*{
+    padding:0px;
+    
+}
+
+#css-zen-garden{
+    margin: 0px;
+    text-align: justify;
+    ;
+}
+
+[role=banner]{
+    background-image:url(../img/huntington.png);
+    height: 200px;
+    margin: 0px;
+    text-align: center;
+    background-size: cover;
+    padding-top: 75px;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: xx-large;
+    text-shadow: 2px 4px 2px black;
+    
+}
+
+h2 {
+    background-image: url(../img/zen.svg);
+    background-position-x: 42%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family:'Pacifico', cursive;
+    font-size: medium;
+    color: white;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding:0px;
+}
+
+
+[role=main]{
+    margin: 0px;
+    
+}
+
+.summary{
+    
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.summary>p>a:link{
+    text-decoration: none;
+    color:  rgb(10, 58, 10);
+    font-weight: bold; 
+}
+
+.preamble{
+    
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.explanation{
+    
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.participation{
+    background-image:url(../img/bamboo.png);
+    background-color: rgb(183, 209, 183);
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.participation>h3{
+    margin-top: 0px;
+    padding-top: 18px;
+}
+
+.participation>p{
+    margin-bottom: 0px;
+}
+.participation>p>a:link{
+    text-decoration: none;
+    color:  rgb(10, 58, 10);
+    font-weight: bold; 
+}
+
+
+.benefits{
+    background-image:url(../img/bamboo.png);
+    background-color: rgb(183, 209, 183);
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Ubuntu', sans-serifs;
+}
+
+.benefits>h3{
+    margin-top: 0px;
+    padding-top: 6px;
+}
+
+.benefits>p{
+    padding-bottom: 16px;
+}
+
+.requirements>h3{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.requirements>p{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}  
+
+.requirements>p>a{
+    text-decoration: none;
+    font-weight: bold; 
+    color: inherit;
+}
+
+
+[role=contentinfo]{
+    background-color: rgb(121, 158, 121);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 120px;
+    padding-right:120px;
+    margin: 0px;
+    text-align: center;
+    color: lightgray;
+}
+
+p[role=contentinfo]>a{
+    font-family:'Pacifico', cursive;
+    font-size:xx-large;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+p[role=contentinfo]>a:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+footer{
+    background-color: rgb(10, 58, 10);
+    text-align: center;
+    font-size: xx-large;
+    padding: 8px;
+    letter-spacing:15px;
+}
+
+.zen-validate-html{
+    color: white ;
+    text-decoration: none;
+}
+
+.zen-validate-html:hover{
+    color: black;
+}
+
+.zen-validate-css{
+    color: white;
+    text-decoration: none;
+}
+
+.zen-validate-css:hover{
+    color:black;
+}
+
+.zen-license{
+    color:white;
+    text-decoration: none;
+}
+
+.zen-license:hover{
+    color:black;
+}
+
+.zen-accessibility{
+    color: white;
+    text-decoration: none;
+}
+
+.zen-accessibility:hover{
+    color:black;
+}
+
+.zen-github{
+    color: white ;
+    text-decoration: none;
+}
+
+.zen-github:hover{
+    color:black;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+.select{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sidebar>.wrapper>.design-selection{
+    text-decoration: none;
+    background-color: rgb(204, 216, 204);
+    text-align: center;
+    width:100%;
+    border-bottom: 1px solid darkolivegreen;
+    
+}
+
+
+[role=navigation]{
+    columns: 2;
+    padding-right: 0px;
+    padding-left: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0px;
+    width: 100%;
+    column-gap: 0px;
+}
+.select{
+    font-size: 0px;
+}
+
+[role=navigation]>ul{
+    margin: 0px;
+    
+}
+
+[role=navigation]>ul>li{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top:1px solid darkolivegreen;
+}
+
+
+[role=navigation]>ul>li>a{
+    text-decoration: none;
+    color:rgb(155, 152, 152);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:100%;
+}
+
+[role=navigation]>ul>li.next{
+    text-decoration: none;
+    color:rgb(155, 152, 152);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:100%;
+    border: none;
+}
+
+[role=navigation]>ul>li>a.design-name   {
+    font-family: 'Times New Roman', Times, serif;  
+    color: darkslategray;
+    font-size: large;
+}
+
+
+[role=navigation]>ul>li.viewall{
+    text-decoration: none;
+    color:rgb(155, 152, 152);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:100%;
+    border: none;
+}
+
+.design-selection>li>.zen-resources>li{
+    border-top: solid 1px #d9e3dc;
+}
+
+.design-name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 15px;
+
+    
+}
+
+.designer-name{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(155, 152, 152);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+}
+
+
+
+.design-archives{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(204, 216, 204);
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.archives{
+    font-size: 0px;
+}
+
+.design-archives>[role=navigation]>a{
+    text-decoration: none;
+    color:rgb(155, 152, 152);
+}
+
+.zen-resources{
+    background-image:url(../img/bamboo.png);
+    background-color: rgb(183, 209, 183);
+    text-decoration: none;
+    columns:2;
+    align-content: center;
+    column-gap: 0px;
+    padding-bottom: 16px;
+}
+
+.zen-resources>.resources{
+    font-size: 0;
+}
+
+.zen-resources>ul>li{
+    text-decoration: none;
+    text-align: center;
+    margin:0px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkslategray;
+}
+
+.zen-resources>ul>li>a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkslategray;
+}
